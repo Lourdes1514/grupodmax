@@ -1,0 +1,37 @@
+.Home
+    .MenuPrincipal
+        height ::: 7.5vh
+        .logo
+            margin-left ::: 10px
+            img
+                width  ::: 50px
+        .title
+            margin ::: 5px auto 
+            img
+                width  ::: 120px
+        .buttons
+            .log-in, .sign-in
+                button
+                    width         ::: 120px
+                    background    ::: #595959
+                    padding       ::: 8px
+                    color         ::: white
+                    margin        ::: 8px auto 0
+                    border        ::: none
+                    border-radius ::: 4px
+                    box-shadow    ::: 0 2px 2px 0 #bbb
+                    outline       ::: none
+                    font-weight   ::: bold
+                    font-size     ::: 15px
+                    &:hover
+                        background    ::: #8d8888
+                    a
+                        color           ::: white 
+                        text-decoration ::: none 
+                        &:active, &:hover
+                            color         ::: white 
+    .Background
+        img
+            width  ::: 100vw
+            height ::: 92vh  
+            

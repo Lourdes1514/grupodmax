@@ -11,3 +11,66 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.Home .MenuPrincipal{
+  height: 7.5vh;
+  position: absolute;
+  width: 100vw;
+}
+.MenuPrincipal .logo{
+  margin-left: 10px;
+  position: relative;
+  width: 50px;
+}
+.MenuPrincipal .logo img{
+  width: 50px;
+  position: relative;
+}
+.MenuPrincipal .title{
+  margin: -35px auto;
+  position: relative;
+  width: 135px;
+}
+.Home .MenuPrincipal .title img{
+  width: 120px;
+  position: relative;
+}
+.MenuPrincipal .buttons {
+  text-align: end;
+  display: block ruby;
+}
+.MenuPrincipal .buttons .sign-in button{
+  width: 120px;
+  background: #595959;
+  padding: 8px;
+  color: white;
+  margin: 8px auto 0;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 2px 2px 0;
+  outline: none;
+  font-weight: bold;
+  font-size: 15px;
+  position: relative;
+  margin: -5px 5px;
+} 
+.MenuPrincipal .buttons  .log-in  button{
+  width: 120px;
+  background: #595959;
+  padding: 8px;
+  color: white;
+  margin: 8px auto 0;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 2px 2px 0;
+  outline: none;
+  font-weight: bold;
+  font-size: 15px;
+  position: relative;
+} 
+.Home .Background img{
+  margin-top: 60px;
+  width: 100vw;
+  height: 91vh;
+}
+            
